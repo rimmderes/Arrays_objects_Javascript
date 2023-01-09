@@ -19,7 +19,8 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 
-// console.log(stations);
+stations.shift();
+console.log(stations);
 
 
 
@@ -28,9 +29,9 @@ console.log(stations);
  * How many stations are on the line?
  */
 
-stationCount = null;
+stationCount = stations.length;
 
-// console.log("There are " + stationCount + " stations.");
+console.log("There are " + stationCount + " stations.");
 
 
 
@@ -39,9 +40,9 @@ stationCount = null;
  * Which station is the third stop?
  */
 
-thirdStation = null;
+thirdStation = stations(3);
 
-// console.log("The third station is " + thirdStation);
+console.log("The third station is " + thirdStation);
 
 
 
